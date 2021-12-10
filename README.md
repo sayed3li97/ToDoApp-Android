@@ -1,19 +1,19 @@
 # ToDoApp
-Simple Android To-do app. One Activity that displays a list of data which is stored in an Array List. 
-A Flotation Action Button (FAB) is used to show a dialog box with an input field for the user to add new items to his list. 
-This project is part of a workshop titled "Introduction to Android" aimed to help beginners get into Android.
+Simple Android To-do app. One Activity displays a list of data that is stored in an Array List. 
+A Flotation Action Button (FAB) shows a dialog box with an input field for the user to add new items to his list. 
+This project is part of a workshop titled "Introduction to Android" to help beginners get into Android.
 
 # Screenshots 
 <img src="/screenshot/screenshot1.png" width="220" height="400"> <img src="/screenshot/screenshot2.png" width="220" height="400"> 
 <img src="/screenshot/screenshot3.png" width="220" height="400"> 
 
-# Step to re-crearte 
+# Step to re-create 
 
 
 1. Create a new project in Android Studio (Choose the Empty Activity)
 2. [Dwnload this Image](app/src/main/res/drawable/plus.png) and insert it into the drawable folder inside your project
 3. Navigate to app/res/layout/activity_main.xml
-4. Open the "Text" view and the replace the xml code with the below code 
+4. Open the "Text" view and replace the XML code with the below Code 
 The Code below will add to elements to the Layout:
     1. ListView that will display all the data in a List 
     2. A FAB button 
@@ -46,8 +46,8 @@ The Code below will add to elements to the Layout:
 </android.support.constraint.ConstraintLayout >
 ```
 
-5. Open the java file for the main activity by opening the MainActivity.java from the following path app/java/"The first folder"/MainActivity.java
-6. Replace the code in that file with the below code ("Dont remove the first line starting with package")
+5. Open the java file for the main Activity by opening the MainActivity.java from the following path app/java/"The first folder"/MainActivity.java
+6. Replace the Code in that file with the below Code ("Don't remove the first line starting with the package")
 
 ```
 
